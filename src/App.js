@@ -1,8 +1,9 @@
-
+import Nav from "./components/Nav";
 function App() {
   return (
-    <div>
-  <h1>im hamza</h1>
+    <div className="body">
+  
+  <Nav/>
     </div>
   );
 }

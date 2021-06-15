@@ -1,3 +1,59 @@
-body {
-    background-color: chartreuse;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body {
+    background-color: rgb(231, 225, 225);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+}
+.navBox {
+  background-color: rgb(196, 189, 189);
+  color:rgb(59, 129, 153);
+  height: 12rem;
+  width: 50rem;
+  padding: 5px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+.navBox:last-child {
+  align-items: center;
+}
+nav ul{
+ background-color: rgb(59, 129, 153);
+ display: flex;
+ align-items: center;
+ flex-direction: row;
+ justify-content: space-around;
+ height: 2.1rem;
+ border-radius: 5px;
+ 
+}
+nav ul li {
+ list-style: none;
+ border-right: 1px solid white;
+ height: 2rem;
+ width: 6rem;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+}
+nav ul li:hover {
+  background-color: rgb(106, 139, 150);
+}
+nav ul li:last-child {
+  border: none;
+}
+.navBox h1,h4 {
+  text-shadow: white 1px 1px 1px ;
 }
