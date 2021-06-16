@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <div className="navBox">
@@ -5,10 +6,18 @@ const Nav = () => {
       <h4>WEB DEVELOPER</h4>
       <nav>
         <ul>
-          <li>About</li>
-          <li>Skills</li>
-          <li>Education</li>
-          <li>Contact</li>
+          <Link to="/">
+            <li>Home</li>
+          </Link>
+          <Link to="/About">
+            <li>About</li>
+          </Link>
+          <Link to="/Skills">
+            <li>Skills</li>
+          </Link>
+          <Link to="/Contact">
+            <li>Contact</li>
+          </Link>
         </ul>
       </nav>
     </div>
