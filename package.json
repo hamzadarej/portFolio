@@ -1,7 +1,7 @@
 {
   "name": "portFolio",
   "version": "0.1.0",
-  "homepage": "https://hamzadarej.github.io/portFolio",
+  "homepage": "https://github.com/hamzadarej/portFolio.git",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
