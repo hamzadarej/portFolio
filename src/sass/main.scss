@@ -18,7 +18,7 @@ body {
   background-color: rgb(90, 87, 87);
   color:rgb(0, 73, 97);
   height: 12rem;
-  width: 100rem;
+  width: 100vw;
   padding: 5px;
   display: flex;
   align-items: center;
@@ -63,7 +63,7 @@ nav ul li:last-child {
 .about {
   height: 20rem;
   background-color: lightgrey;
-  width: 100rem;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -133,8 +133,10 @@ nav ul li:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   min-height: 80vh;
   background: #2e2e2e;
+  margin: 10px 0;
 }
 
 .container {
@@ -154,6 +156,7 @@ nav ul li:last-child {
   flex-wrap: wrap;
   height: 16rem;
   position: relative;
+  margin: 20px 0;
   
 }
 .ICONS li {
