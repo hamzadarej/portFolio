@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/hamzadarej/portFolio.git/static/css/main.7582227a.chunk.css",
-    "main.js": "/hamzadarej/portFolio.git/static/js/main.67421324.chunk.js",
-    "main.js.map": "/hamzadarej/portFolio.git/static/js/main.67421324.chunk.js.map",
+    "main.css": "/hamzadarej/portFolio.git/static/css/main.5e227d1a.chunk.css",
+    "main.js": "/hamzadarej/portFolio.git/static/js/main.e0138d57.chunk.js",
+    "main.js.map": "/hamzadarej/portFolio.git/static/js/main.e0138d57.chunk.js.map",
     "runtime-main.js": "/hamzadarej/portFolio.git/static/js/runtime-main.3dfe539e.js",
     "runtime-main.js.map": "/hamzadarej/portFolio.git/static/js/runtime-main.3dfe539e.js.map",
-    "static/js/2.88da742d.chunk.js": "/hamzadarej/portFolio.git/static/js/2.88da742d.chunk.js",
-    "static/js/2.88da742d.chunk.js.map": "/hamzadarej/portFolio.git/static/js/2.88da742d.chunk.js.map",
+    "static/js/2.664c0f29.chunk.js": "/hamzadarej/portFolio.git/static/js/2.664c0f29.chunk.js",
+    "static/js/2.664c0f29.chunk.js.map": "/hamzadarej/portFolio.git/static/js/2.664c0f29.chunk.js.map",
     "index.html": "/hamzadarej/portFolio.git/index.html",
-    "static/css/main.7582227a.chunk.css.map": "/hamzadarej/portFolio.git/static/css/main.7582227a.chunk.css.map",
-    "static/js/2.88da742d.chunk.js.LICENSE.txt": "/hamzadarej/portFolio.git/static/js/2.88da742d.chunk.js.LICENSE.txt"
+    "static/css/main.5e227d1a.chunk.css.map": "/hamzadarej/portFolio.git/static/css/main.5e227d1a.chunk.css.map",
+    "static/js/2.664c0f29.chunk.js.LICENSE.txt": "/hamzadarej/portFolio.git/static/js/2.664c0f29.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3dfe539e.js",
-    "static/js/2.88da742d.chunk.js",
-    "static/css/main.7582227a.chunk.css",
-    "static/js/main.67421324.chunk.js"
+    "static/js/2.664c0f29.chunk.js",
+    "static/css/main.5e227d1a.chunk.css",
+    "static/js/main.e0138d57.chunk.js"
   ]
 }
