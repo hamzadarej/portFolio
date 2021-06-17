@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/hamzadarej/portFolio.git/static/css/main.4590ac98.chunk.css",
-    "main.js": "/hamzadarej/portFolio.git/static/js/main.0712eebf.chunk.js",
-    "main.js.map": "/hamzadarej/portFolio.git/static/js/main.0712eebf.chunk.js.map",
+    "main.css": "/hamzadarej/portFolio.git/static/css/main.f58e6b8a.chunk.css",
+    "main.js": "/hamzadarej/portFolio.git/static/js/main.9ad4dd7c.chunk.js",
+    "main.js.map": "/hamzadarej/portFolio.git/static/js/main.9ad4dd7c.chunk.js.map",
     "runtime-main.js": "/hamzadarej/portFolio.git/static/js/runtime-main.3dfe539e.js",
     "runtime-main.js.map": "/hamzadarej/portFolio.git/static/js/runtime-main.3dfe539e.js.map",
     "static/js/2.6fbdc295.chunk.js": "/hamzadarej/portFolio.git/static/js/2.6fbdc295.chunk.js",
     "static/js/2.6fbdc295.chunk.js.map": "/hamzadarej/portFolio.git/static/js/2.6fbdc295.chunk.js.map",
     "index.html": "/hamzadarej/portFolio.git/index.html",
-    "static/css/main.4590ac98.chunk.css.map": "/hamzadarej/portFolio.git/static/css/main.4590ac98.chunk.css.map",
-    "static/js/2.6fbdc295.chunk.js.LICENSE.txt": "/hamzadarej/portFolio.git/static/js/2.6fbdc295.chunk.js.LICENSE.txt"
+    "static/css/main.f58e6b8a.chunk.css.map": "/hamzadarej/portFolio.git/static/css/main.f58e6b8a.chunk.css.map",
+    "static/js/2.6fbdc295.chunk.js.LICENSE.txt": "/hamzadarej/portFolio.git/static/js/2.6fbdc295.chunk.js.LICENSE.txt",
+    "static/media/koenigssee-11.88f98eb5.jpg": "/hamzadarej/portFolio.git/static/media/koenigssee-11.88f98eb5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3dfe539e.js",
     "static/js/2.6fbdc295.chunk.js",
-    "static/css/main.4590ac98.chunk.css",
-    "static/js/main.0712eebf.chunk.js"
+    "static/css/main.f58e6b8a.chunk.css",
+    "static/js/main.9ad4dd7c.chunk.js"
   ]
 }
