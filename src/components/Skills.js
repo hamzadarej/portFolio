@@ -10,8 +10,8 @@ import {
 const Skills = () => {
   return (
     <div className="boxContainer">
-      <div className="container">
-        <h2>Used</h2>
+      
+        <h2>Tools</h2>
 
         <div className="ICONS">
           <li>
@@ -36,7 +36,7 @@ const Skills = () => {
             <FaNodeJs />
           </li>
         </div>
-
+<div className="containerS">
         <h2>CSS Skills Bar UI Design</h2>
 
         <div className="skills">

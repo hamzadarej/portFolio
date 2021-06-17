@@ -1,0 +1,68 @@
+.about {
+    height: 20rem;
+    background-color: lightgrey;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .aboutBox{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: inherit;
+    width: inherit;
+  }
+  .header {
+   margin: 15px;
+    width: 90rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .header span {
+    border: 1px solid darkturquoise;
+    width: 25rem;
+  }
+  .about h5 {
+    width: 7rem;
+    height: 2.5rem;
+    background-color: rgb(0, 73, 97);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 5px;
+    
+    
+  }
+  .about .left-side {
+    background-color: lightgray;
+    width: 30%;
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-between;
+   padding: 5px;
+  
+  }
+  .links{
+    height: 2rem;
+    background-color: darkturquoise;
+    width: 90%;
+  }
+  .about .right-side {
+    background-color: lightgrey;
+    width: 60%;
+    height: 80%;
+  
+  }
