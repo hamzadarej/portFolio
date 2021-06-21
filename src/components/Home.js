@@ -1,26 +1,24 @@
-import { Link } from "react-router-dom";
-const Home = () => {
+
+const Home = (props) => {
   return (
-    <div className="navBox">
-    <h1>HAMZA DAREJ</h1>
-    <h4>WEB DEVELOPER</h4>
-    <nav>
-      <ul>
-        <Link to="/">
-          <li>Home</li>
-        </Link>
-        <Link to="/About">
-          <li>About</li>
-        </Link>
-        <Link to="/Skills">
-          <li>Skills</li>
-        </Link>
-        <Link to="/Contact">
-          <li>Contact</li>
-        </Link>
-      </ul>
-    </nav>
-  </div>
+    <div className="home">
+      <div className="home-box">
+        <img src={props.image} alt="konigSea" />
+      <h1>HAMZA DAREJ</h1>
+      <h3>WEB DEVELOPER</h3>
+      
+      <p>
+              I had finished my Bachelor degree as an accountant in Tunisia,I had
+              always been interested in programming until I moved to Germany and
+              got the opportunity to start my education as a web developer. I
+              really enjoy coding and I am looking forward to a new challenge in
+              my career.
+            </p>
+      <button>Get start</button>
+         
+      
+        </div>
+    </div>
     
   );
 };

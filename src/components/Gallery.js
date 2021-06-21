@@ -1,6 +1,6 @@
 const Gallery=()=>{
     return (
-        <div>Gallery</div>
+        <div className="gallery-container">Gallery</div>
     )
     }
     export default Gallery;
