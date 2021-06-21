@@ -1,7 +1,7 @@
 .contactContainer {
   background: #2e2e2e;
   width: 100vw;
-  height: 100vh;
+  height: 85vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -187,7 +187,7 @@ $cn: rgba(0, 0, 0, 0);
 }
 .contactContainer img {
   position: absolute;
-  height: 100vh;
+  height: 85vh;
   width: 100vw;
   opacity: 0.5;
 }

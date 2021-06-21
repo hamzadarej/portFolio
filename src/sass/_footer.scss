@@ -1,0 +1,32 @@
+.footer-container {
+    background-color: rgb(172, 199, 207);
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    
+    
+}
+.footer-links {
+    font-size: 40px;
+   
+    width: 40vw;
+  display: flex;
+  justify-content: space-around;
+  
+
+}
+
+.footer-copyright {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: large;
+    
+    padding-top: 5px;
+}
