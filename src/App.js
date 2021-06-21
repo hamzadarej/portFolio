@@ -16,7 +16,7 @@ function App() {
      <Navbar/>
      
       <Switch>
-        <Route path="/" exact component={()=><Home  image={HomeImage}/>} />
+        <Route path="/Home" exact component={()=><Home  image={HomeImage}/>} />
         <Route path="/Gallery" exact component={() => <Gallery data={Data} />} />
         <Route path="/Skills" exact component={Skills} />
         <Route path="/Contact" exact component={()=><Contact  image={Image}/>} />
