@@ -20,23 +20,38 @@
     
     
   }
-  .home-box img {
+  .home-box video {
     position: absolute;
     height: 100vh;
     width: 100vw;
     opacity: 0.9;
     z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background: #232a34;
+
   }
  
   
   
   .home-box h1,h3 {
-    text-shadow: rgb(133, 132, 132) 1px 1px 1px ;
+    text-shadow: snow 1px 1px 1px ;
     font-family: 'Chivo', sans-serif;
   }
   .home-box button {
     font-size: large;
     padding: 5px;
+    background-color: lightblue;
+    width: 10rem;
+  }
+  .home-box button:hover {
+    cursor: pointer;
+    background-color: white;
+
   }
   .home-box p {
     color: snow;

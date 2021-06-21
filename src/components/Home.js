@@ -1,9 +1,12 @@
-
-const Home = (props) => {
+import { Link } from "react-router-dom";
+//import React,{useState} from "react";
+import Video from "../videos/video-2.mp4"
+const Home = () => {
   return (
     <div className="home">
       <div className="home-box">
-        <img src={props.image} alt="konigSea" />
+        
+      <video autoPlay loop muted src={Video} type="video"/>
       <h1>HAMZA DAREJ</h1>
       <h3>WEB DEVELOPER</h3>
       
@@ -14,7 +17,7 @@ const Home = (props) => {
               really enjoy coding and I am looking forward to a new challenge in
               my career.
             </p>
-      <button>Get start</button>
+      <Link to="/Contact"><button>Get start</button></Link>
          
       
         </div>
