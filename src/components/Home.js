@@ -17,7 +17,7 @@ const Home = () => {
               really enjoy coding and I am looking forward to a new challenge in
               my career.
             </p>
-      <Link to="/Contact"><button>Get start</button></Link>
+      <Link to="/Contact"><button>Contact me!</button></Link>
          
       
         </div>

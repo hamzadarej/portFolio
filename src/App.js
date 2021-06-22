@@ -8,19 +8,36 @@ import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import Data from "./data.json";
 import Image from "./images/6_Berlin.jpg";
-//import HomeImage from "./images/img-home.jpg";
+
+
 
 
 function App() {
-  
+  const galeryData = Data.map(({id,img}) => (
+    
+       <li key={id} className="GalleryPic">
+      <div> 
+        {" "}
+        <img
+          className="pic"
+          src={`${process.env.PUBLIC_URL}/${img}`}
+          alt={id}
+        />
+      </div>
+     
+    </li>
+  ));
   return (
     <Router>
      <Navbar/>
      
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/Gallery" exact component={() => <Gallery data={Data} />} />
         <Route path="/Skills" exact component={Skills} />
+        <Route path="/Gallery" exact component={() => <Gallery data={Data} />}>
+          <ul className="gallery-container"><div className="gallery">{galeryData}</div></ul>
+        </Route>
+        
         <Route path="/Contact" exact component={()=><Contact  image={Image}/>} />
       </Switch>
       <Footer/>

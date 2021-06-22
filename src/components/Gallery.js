@@ -1,6 +1,11 @@
-const Gallery=()=>{
+import React from 'react'
+
+function Gallery() {
     return (
-        <div className="gallery-container">Gallery</div>
+        <h1>
+            Gallery
+        </h1>
     )
-    }
-    export default Gallery;
+}
+
+export default Gallery

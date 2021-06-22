@@ -9,11 +9,11 @@ function Navbar() {
       <Link to="/">
           <li>Home</li>
         </Link>
-        <Link to="/Gallery">
-          <li>Gallery</li>
-        </Link>
         <Link to="/Skills">
           <li>Skills</li>
+        </Link>
+        <Link to="/Gallery">
+          <li>Gallery</li>
         </Link>
         <Link to="/Contact">
           <li>Contact</li>

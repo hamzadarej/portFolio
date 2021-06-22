@@ -17,19 +17,20 @@
   flex-direction: column;
   justify-content: space-around;
 }
-.home-box video {
+video {
   position: absolute;
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   opacity: 0.9;
   z-index: -1;
   left: 0;
   right: 0;
-  bottom: 0px;
+  top: 0px;
   overflow: hidden;
   -o-object-fit: cover;
   object-fit: cover;
   background: #232a34;
+  opacity: 0.9;
 }
 
 .home-box h1,
@@ -52,4 +53,5 @@ h3 {
   text-shadow: rgb(26, 24, 24) 1px 1px 1px;
   letter-spacing: 2px;
   font-size: x-large;
+  font-weight: bold;
 }
