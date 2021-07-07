@@ -3,14 +3,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 85vh;
+  height: 100vh;
   width: 100vw;
   background: #2e2e2e;
 }
 
 .containerS {
   position: relative;
-  width: 500px;
+  width: 30rem;
 }
 .boxContainer h2 {
   color: snow;
@@ -24,14 +24,14 @@
   
   position: relative;
   margin: 20px 0;
-  width: 500px;
-height: 35vh;
+  width: 60vw;
+height: 40vh;
 }
 .ICONS li {
   list-style: none;
   padding: 5px;
 
-  font-size: 110px;
+  font-size: 5rem;
 }
 .ICONS li:nth-child(1) {
   color: orangered;

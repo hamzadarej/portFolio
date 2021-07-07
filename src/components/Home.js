@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 //import React,{useState} from "react";
-import Video from "../videos/video-2.mp4"
+import Video from "../videos/video-1.mp4"
 const Home = () => {
   return (
     <div className="home">

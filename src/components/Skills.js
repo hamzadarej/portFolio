@@ -10,33 +10,32 @@ import {
 const Skills = () => {
   return (
     <div className="boxContainer">
-      
-        <h2>Tools</h2>
+      <h2>Tools</h2>
 
-        <div className="ICONS">
-          <li>
-            <FaHtml5 />{" "}
-          </li>
-          <li>
-            <FaCss3 />
-          </li>
-          <li>
-            <FaJsSquare />
-          </li>
-          <li>
-            <FaBootstrap />
-          </li>
-          <li>
-            <FaSass />
-          </li>
-          <li>
-            <FaReact />
-          </li>
-          <li>
-            <FaNodeJs />
-          </li>
-        </div>
-<div className="containerS">
+      <div className="ICONS">
+        <li>
+          <FaHtml5 />{" "}
+        </li>
+        <li>
+          <FaCss3 />
+        </li>
+        <li>
+          <FaJsSquare />
+        </li>
+        <li>
+          <FaBootstrap />
+        </li>
+        <li>
+          <FaSass />
+        </li>
+        <li>
+          <FaReact />
+        </li>
+        <li>
+          <FaNodeJs />
+        </li>
+      </div>
+      <div className="containerS">
         <h2>CSS Skills Bar UI Design</h2>
 
         <div className="skills">

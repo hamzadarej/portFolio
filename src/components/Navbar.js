@@ -12,8 +12,8 @@ function Navbar() {
         <Link to="/Skills">
           <li>Skills</li>
         </Link>
-        <Link to="/Gallery">
-          <li>Gallery</li>
+        <Link to="/Projects">
+          <li>Projects</li>
         </Link>
         <Link to="/Contact">
           <li>Contact</li>

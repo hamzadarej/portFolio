@@ -4,43 +4,33 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills";
-import Gallery from "./components/Gallery";
+import Projects from "./components/Projects";
 import Footer from "./components/Footer";
-import Data from "./data.json";
 import Image from "./images/6_Berlin.jpg";
-
-
+import { SliderData } from "./components/SliderData";
 
 
 function App() {
-  const galeryData = Data.map(({id,img}) => (
-    
-       <li key={id} className="GalleryPic">
-      <div> 
-        {" "}
-        <img
-          className="pic"
-          src={`${process.env.PUBLIC_URL}/${img}`}
-          alt={id}
-        />
-      </div>
-     
-    </li>
-  ));
   return (
     <Router>
-     <Navbar/>
-     
+      <Navbar />
+
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/Skills" exact component={Skills} />
-        <Route path="/Gallery" exact component={() => <Gallery data={Data} />}>
-          <ul className="gallery-container"><div className="gallery">{galeryData}</div></ul>
-        </Route>
-        
-        <Route path="/Contact" exact component={()=><Contact  image={Image}/>} />
+        <Route
+          path="/Projects"
+          exact
+          component={() => <Projects slides={SliderData} />}
+        ></Route>
+
+        <Route
+          path="/Contact"
+          exact
+          component={() => <Contact image={Image} />}
+        />
       </Switch>
-      <Footer/>
+      <Footer />
     </Router>
   );
 }
