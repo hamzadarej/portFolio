@@ -6,7 +6,7 @@ function Navbar() {
     <nav>
       <ul>
         
-      <Link to="/">
+      <Link to={process.env.PUBLIC_URL + "/"}>
           <li>Home</li>
         </Link>
         <Link to="/Skills">
