@@ -16,7 +16,7 @@ function App() {
       <Navbar />
 
       <Switch>
-        <Route path="/" exact component={Home} />
+        <Route path={process.env.PUBLIC_URL + "/"} exact component={Home} />
         <Route path="/Skills" exact component={Skills} />
         <Route
           path="/Projects"
