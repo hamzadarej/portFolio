@@ -15,7 +15,7 @@ const Contact = (props) => {
             <i>
               <FontAwesomeIcon className="fa" icon={faMapMarker} />
             </i>
-            <span className="from-info">SchönbachStraße 77 leipig 04299</span>
+            <span className="from-info">SchönbachStraße 77 Leipzig 04299</span>
           </div>
           <div className="link">
             <i>

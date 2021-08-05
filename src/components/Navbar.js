@@ -4,6 +4,7 @@ function Navbar() {
     return (
         
     <nav>
+      
       <ul>
         
       <Link to={process.env.PUBLIC_URL + "/"}>
@@ -17,6 +18,9 @@ function Navbar() {
         </Link>
         <Link to="/Contact">
           <li>Contact</li>
+        </Link>
+        <Link to={process.env.PUBLIC_URL + "/"}>
+          <li id="logo">Hamza Darej</li>
         </Link>
       </ul>
     </nav>

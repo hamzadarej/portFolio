@@ -38,7 +38,7 @@ function Gallery({ slides }) {
                 />
               )}
               <div className="projects-info">
-                <h1>{title}</h1><a target="_blank" href="https://github.com/hamzadarej" ><FaGithub/></a>
+                <h1>{title}</h1><a target="blank" href="https://github.com/hamzadarej" ><FaGithub/></a>
               </div>
             </div>
           </div>
