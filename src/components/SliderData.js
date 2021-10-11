@@ -36,7 +36,7 @@ export const SliderData = [
   {
     id: 5,
     img: img6,
-    title: "Country-app",
+    title: "Weather-app",
   },
   {
     id: 6,

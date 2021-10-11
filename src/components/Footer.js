@@ -14,7 +14,7 @@ function Footer() {
         <a target="blank" rel="https" href="https://www.facebook.com/hamza.darej/" ><FaFacebook/></a>
         <a target="blank" href="https://github.com/hamzadarej" ><FaGithub/></a>
         <a target="blank" href="https://www.instagram.com/hamzadarej1/"><FaInstagram/></a>
-        <a target="blank" href="https://www.linkedin.com/feed/?trk=DACH-SEM_google-adwords_brand-ghp"><FaLinkedinIn/> </a>
+        <a target="blank" href="https://www.linkedin.com/in/hamza-darej-068365210/"><FaLinkedinIn/> </a>
       </div>
       <div className="footer-copyright">
         Made with ❤️ by Hamza Darej ,

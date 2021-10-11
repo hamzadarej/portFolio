@@ -5,7 +5,7 @@
   flex-direction: column;
   height: 84vh;
   width: 100vw;
-  background:snow;
+  background: snow;
 }
 
 .containerS {
@@ -21,11 +21,11 @@
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  
+
   position: relative;
   margin: 20px 0;
   width: 60vw;
-height: 40vh;
+  height: 40vh;
 }
 .ICONS li {
   list-style: none;
@@ -53,6 +53,9 @@ height: 40vh;
 }
 .ICONS li:nth-child(7) {
   color: #3c873a;
+}
+.ICONS li:nth-child(8) {
+  color: #4db33d;
 }
 .skills {
   display: flex;

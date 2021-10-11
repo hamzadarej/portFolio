@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: rgb(172, 199, 207);
+  background-color: rgb(233, 203, 146);
   height: 10vh;
   width: 100vw;
   display: flex;
@@ -15,6 +15,9 @@
   display: flex;
   justify-content: space-around;
 }
+.footer-links a {
+  color:black;
+}
 
 .footer-copyright {
   display: flex;
@@ -24,3 +27,4 @@
   font-size: large;
   padding: 5px;
 }
+

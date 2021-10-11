@@ -20,7 +20,7 @@ function Navbar() {
           <li>Contact</li>
         </Link>
         <Link to={process.env.PUBLIC_URL + "/"}>
-          <li id="logo">Hamza Darej</li>
+          <li id="logo">HD</li>
         </Link>
       </ul>
     </nav>

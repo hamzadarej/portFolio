@@ -1,10 +1,16 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
 import {
   faMapMarker,
   faPhone,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 const Contact = (props) => {
+  const [state, handleSubmit] = useForm("xleavopp");
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
+  }
   return (
     <div class="contactContainer">
       <img src={props.image} alt="konigSea" />
@@ -33,22 +39,36 @@ const Contact = (props) => {
         </div>
 
         <div class="latter-form">
-          <form>
+          <form onSubmit={handleSubmit}>
             <h2>Send Message</h2>
             <div class="inputBox">
               <input type="text" required="required" />
               <span>Full Name</span>
             </div>
             <div class="inputBox">
-              <input type="text" required="required" />
+              <input id="email" type="email" name="email" required="required" />
               <span>Email</span>
+              <ValidationError
+                prefix="Email"
+                field="email"
+                errors={state.errors}
+              />
             </div>
             <div class="inputBox">
-              <textarea required="required"></textarea>
+              <textarea
+                required="required"
+                id="message"
+                name="message"
+              ></textarea>
+              <ValidationError
+                prefix="Message"
+                field="message"
+                errors={state.errors}
+              />
               <span>Type your Message...</span>
             </div>
             <div class="inputBox">
-              <input type="submit" value="Send" />
+              <input type="submit" value="Send" disabled={state.submitting} />
             </div>
           </form>
         </div>

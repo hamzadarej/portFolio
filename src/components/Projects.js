@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 
 function Gallery({ slides }) {
-  const [current, setCurrent] = useState(0);
+  const [current, setCurrent] = useState(1);
   const length = slides.length;
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
@@ -17,7 +17,9 @@ function Gallery({ slides }) {
   const prevSlider = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
-
+  
+console.log(current);
+console.log(length);
   return (
     <section className="slider">
       <FaArrowAltCircleLeft className="left-arrow " onClick={prevSlider} />

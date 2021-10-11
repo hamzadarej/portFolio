@@ -8,30 +8,16 @@
 }
 .home-box {
   // background-color: rgb(90, 87, 87);
-  color: rgb(0, 73, 97);
+  color: orange;
   height: 60vh;
-  width: 40vw;
+  width: 50vw;
   padding: 5px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
 }
-video {
-  position: absolute;
-  height: 90vh;
-  width: 100vw;
-  opacity: 0.9;
-  z-index: -1;
-  left: 0;
-  right: 0;
-  top: 0px;
-  overflow: hidden;
-  -o-object-fit: cover;
-  object-fit: cover;
-  background: #232a34;
-  opacity: 0.9;
-}
+
 
 .home-box h1,
 h3 {
@@ -41,7 +27,7 @@ h3 {
 .home-box button {
   font-size: large;
   padding: 5px;
-  background-color: lightblue;
+  background-color: rgb(146, 132, 106);
   width: 10rem;
 }
 .home-box button:hover {
@@ -49,9 +35,32 @@ h3 {
   background-color: white;
 }
 .home-box p {
-  color: snow;
-  text-shadow: rgb(26, 24, 24) 1px 1px 1px;
+  width: 20vw;
+  color: black;
+  text-shadow: rgb(51, 51, 51) 1px 1px 1px;
   letter-spacing: 2px;
   font-size: 20px;
   font-weight: bold;
 }
+.profile{
+  width: 40vw;
+  
+  }
+.profile div {
+  height:600px;
+  width:90%;
+  border-radius:57% 43% 0% 100% / 54% 91% 9% 46% ;
+  background-color:black;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile div img {
+height: 400px;
+width: 400px;
+border-radius: 50%  ;
+
+border: 5px dotted orange;
+
+}
+
