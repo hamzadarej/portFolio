@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
-import Image from "./images/6_Berlin.jpg";
+
 import { SliderData } from "./components/SliderData";
 
 
@@ -27,7 +27,7 @@ function App() {
         <Route
           path="/Contact"
           exact
-          component={() => <Contact image={Image} />}
+          component={() => <Contact  />}
         />
       </Switch>
       <Footer />

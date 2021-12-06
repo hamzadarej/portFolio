@@ -1,18 +1,16 @@
 .contactContainer {
-  background: #2e2e2e;
+  background: snow;
   width: 100vw;
-  height: 84vh;
+  height: 85vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  color: orange;
 }
 .contactContainer h1 {
-  color: snow;
-  opacity: 1;
-  z-index: 0;
+  color: inherit;
   padding-top: 20px;
-
   font-style: italic;
 }
 .contact-box {
@@ -23,14 +21,15 @@
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+  color: black;
 }
 .links-box .fa {
   font-size: x-large;
   padding: 8px;
   background-color: none;
   margin: 10px;
-  border: 2px solid rgb(211, 211, 211);
-  color: rgb(211, 211, 211);
+  border: 2px solid orange;
+
   border-radius: 80%;
   width: 4rem;
   height: 4rem;
@@ -38,8 +37,8 @@
 }
 .links-box .fa:hover {
   cursor: pointer;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid orange;
+  color: black;
   z-index: 12;
 }
 .links-box {
@@ -59,41 +58,40 @@
 .from-info {
   font-size: 16px;
   font-style: italic;
-  color: white;
+  color: inherit;
 
   letter-spacing: 2px;
 }
 
 .latter-form {
   background-color: snow;
-  opacity: 0.6;
+  opacity: 0.7;
   padding: 20px;
   width: 25rem;
   height: 50%;
   z-index: 3;
   line-height: 2;
-
   transition: 2s ease-in-out;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   &:hover {
-    opacity:1;
-    
+    opacity: 1;
+  }
+  h2 {
+    font-style: italic;
+    color: orange;
   }
 
-  .latter-form h2 {
-    font-size: 30px;
-    color: #333;
-    font-weight: 500;
-  }
   .inputBox {
     position: relative;
-    width: 100%;
+    width: 280px;
     margin-top: 5px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .inputBox input,
   textarea {
@@ -113,7 +111,7 @@
     margin: 10px 0;
     pointer-events: none;
     transition: 0.5s;
-    color: #666;
+    color: orange;
   }
   .inputBox input:focus ~ span,
   .inputBox input:valid ~ span,
@@ -124,8 +122,8 @@
     transform: translateY(-20px);
   }
   .inputBox input[type="submit"] {
-    width: 100px;
-    background-color: lightseagreen;
+    width: 150px;
+    background-color: black;
     color: #fff;
     border: none;
     cursor: pointer;

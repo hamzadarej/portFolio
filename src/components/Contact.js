@@ -6,14 +6,16 @@ import {
   faPhone,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
-const Contact = (props) => {
+const Contact = () => {
   const [state, handleSubmit] = useForm("xleavopp");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <div className="contactContainer">
+      <h2 style={{color:"white" ,paddingTop:"15px"}}>Thanks for joining!</h2>
+    </div>;
   }
   return (
-    <div class="contactContainer">
-      <img src={props.image} alt="konigSea" />
+    <div className="contactContainer">
+      
       <h1>Contact me</h1>
       <div className="contact-box">
         <div className="links-box">
