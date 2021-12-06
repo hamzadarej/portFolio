@@ -16,6 +16,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
+  //border:2px solid red;
 }
 
 
@@ -26,6 +27,7 @@ h3 {
 }
 .home-box button {
   font-size: large;
+  margin-top:10px;
   padding: 5px;
   background-color: rgb(146, 132, 106);
   width: 10rem;
@@ -40,14 +42,16 @@ h3 {
   text-shadow: rgb(51, 51, 51) 1px 1px 1px;
   letter-spacing: 2px;
   font-size: 20px;
-  font-weight: bold;
+  
+  font-family: italic;
 }
 .profile{
   width: 40vw;
+  height:70vh;
   
   }
 .profile div {
-  height:600px;
+  height:90%;
   width:90%;
   border-radius:57% 43% 0% 100% / 54% 91% 9% 46% ;
   background-color:black;
@@ -56,11 +60,41 @@ h3 {
   justify-content: center;
 }
 .profile div img {
-height: 400px;
-width: 400px;
+height: 40vh;
+width: 20vw;
 border-radius: 50%  ;
 
 border: 5px dotted orange;
+
+}
+@media only screen and (max-width: 800px) {
+  .home {
+    flex-direction: column-reverse;
+  }
+  .home-box h1,
+h3 {
+  
+  font-size:15px;
+}
+.home-box {
+  height:30vh;
+  width:80vw;
+}
+.home-box p {
+  font-size:16px;
+  width:90%;
+  //border: 2px solid green;
+;}
+.profile {
+  //border: 2px solid green;
+  width:85%;
+  height:50%
+  
+}
+.profile div img {
+  width:55vw;
+  height:25vh;
+}
 
 }
 

@@ -7,14 +7,10 @@
   width: 100vw;
   background: snow;
 }
-
-.containerS {
-  position: relative;
-  width: 30rem;
-}
 .boxContainer h2 {
   color: black;
 }
+
 .ICONS {
   display: flex;
   align-items: center;
@@ -25,14 +21,20 @@
   position: relative;
   margin: 20px 0;
   width: 60vw;
-  height: 40vh;
+  height: 30vh;
 }
 .ICONS li {
   list-style: none;
   padding: 5px;
-
+  transition: transform 0.2s;
   font-size: 5rem;
 }
+.ICONS li:hover {
+  transform: scale(1.8);
+  //padding:0;
+  filter: grayscale(50%) opacity(95%);
+}
+
 .ICONS li:nth-child(1) {
   color: orangered;
 }
@@ -56,6 +58,10 @@
 }
 .ICONS li:nth-child(8) {
   color: #4db33d;
+}
+
+.containerS {
+  position: relative;
 }
 .skills {
   display: flex;
@@ -145,4 +151,50 @@
 .containerS .skills:hover {
   opacity: 1;
   transform: scale(1.1);
+}
+@media screen and (max-width: 992px) {
+  .boxContainer {
+    height: auto;
+  }
+  h2 {
+    margin-top: 5px;
+  }
+  .ICONS {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    position: relative;
+    margin: 20px 0;
+    width: 70vw;
+    height: 40vh;
+  }
+  .ICONS li {
+    list-style: none;
+    padding: 3px;
+
+    font-size: 4rem;
+  }
+  .skills {
+    width: 80%;
+    margin-left: 50px;
+    font-size: 15px;
+  }
+  .containerS {
+    position: relative;
+    width: 28rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    .skills {
+      padding: 15px 10px;
+      margin: 15px;
+    }
+  }
 }

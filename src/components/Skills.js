@@ -6,9 +6,8 @@ import {
   FaSass,
   FaReact,
   FaNodeJs,
-  
 } from "react-icons/fa";
-import {SiMongodb} from "react-icons/si"
+import { SiMongodb } from "react-icons/si";
 const Skills = () => {
   return (
     <div className="boxContainer">
