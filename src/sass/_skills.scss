@@ -5,10 +5,10 @@
   flex-direction: column;
   height: 84vh;
   width: 100vw;
-  background: snow;
+  background:$white;
 }
 .boxContainer h2 {
-  color: black;
+  color: $black;
 }
 
 .ICONS {
@@ -76,7 +76,7 @@
   );
   border-radius: 8px;
   overflow: hidden;
-  border: 2px solid black;
+  border: 2px solid $black;
   transition: 0.6s;
 }
 .skills:before {

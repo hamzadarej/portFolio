@@ -8,7 +8,7 @@
 }
 .home-box {
   // background-color: rgb(90, 87, 87);
-  color: orange;
+  color: $orange;
   height: 60vh;
   width: 50vw;
   padding: 5px;
@@ -22,7 +22,7 @@
 
 .home-box h1,
 h3 {
-  text-shadow: snow 1px 1px 1px;
+  text-shadow: $white 1px 1px 1px;
   font-family: "Chivo", sans-serif;
 }
 .home-box button {
@@ -38,7 +38,7 @@ h3 {
 }
 .home-box p {
   width: 20vw;
-  color: black;
+  color: $black;
   text-shadow: rgb(51, 51, 51) 1px 1px 1px;
   letter-spacing: 2px;
   font-size: 20px;
@@ -50,23 +50,43 @@ h3 {
   height:70vh;
   
   }
-.profile div {
+.profile-box {
   height:90%;
   width:90%;
   border-radius:57% 43% 0% 100% / 54% 91% 9% 46% ;
-  background-color:black;
+  background-color:$black;
   display:flex;
   align-items: center;
   justify-content: center;
-}
-.profile div img {
+  img {
 height: 40vh;
 width: 20vw;
 border-radius: 50%  ;
 
-border: 5px dotted orange;
+border: 5px dotted $orange;
 
 }
+}
+.profile-box1 {
+  height:90%;
+  width:90%;
+  border-radius:40% 60% 79% 21% / 97% 49% 51% 3%   ;
+  background-color:black;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px dotted $orange;
+   img {
+    height: 40vh;
+    width: 20vw;
+    border-radius: 50%  ;
+    
+    
+    
+    }
+
+}
+
 @media only screen and (max-width: 800px) {
   .home {
     flex-direction: column-reverse;

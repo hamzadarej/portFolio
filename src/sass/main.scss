@@ -1,5 +1,7 @@
-@import "./home";
+//Abstracts
+@import "./abstracts/_abstracts-dir";
 
+@import "./home";
 @import "./skills";
 @import "./projects";
 @import "./contact";
@@ -16,7 +18,7 @@
   
 }
 body {
-    background-color: white;
+    background-color: $white;
     height: 100vh;
     
     display: flex;
