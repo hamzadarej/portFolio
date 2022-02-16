@@ -1,23 +1,22 @@
 .footer-container {
   background-color: $lightO;
-  height: 10vh;
+  min-height: 10vh;
   width: 100vw;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   padding-top: 10px;
-  
 }
 .footer-links {
   font-size: 30px;
-
+  align-items: center;
   width: 50vw;
   display: flex;
   justify-content: space-around;
 }
 .footer-links a {
-  color:$black;
+  color: $black;
 }
 
 .footer-copyright {
@@ -28,4 +27,3 @@
   font-size: large;
   padding: 5px;
 }
-
