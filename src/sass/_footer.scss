@@ -13,17 +13,19 @@
   align-items: center;
   width: 50vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .footer-links a {
   color: $black;
 }
 
 .footer-copyright {
+
   display: flex;
+ 
   align-items: center;
   justify-content: center;
   flex-direction: row;
   font-size: large;
-  padding: 5px;
+  padding: 0px;
 }

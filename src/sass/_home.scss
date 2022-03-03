@@ -118,4 +118,15 @@ h3 {
 }
 
 }
+.download {
+  margin:5px;
+  padding:5px;
+  color:$orange;
+  cursor: pointer;
+  font-size:19px;
+  &:hover {
+    color:$black
+  }
+}
+
 

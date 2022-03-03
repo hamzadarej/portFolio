@@ -3,7 +3,7 @@ import {useEffect,useState} from "react"
 //import React,{useState} from "react";//<video autoPlay loop muted src={Video} type="video"/>
 //import Video from "../videos/video-1.mp4"
 import profileImg from "../images/profile1.png";
-
+import {FiDownload} from "react-icons/fi"
 const Home = () => {
   const [border,setBorder]=useState("profile-box")
 useEffect(() => {
@@ -30,7 +30,8 @@ setBorder("profile-box1")
         <Link to="/Contact">
           <button>Contact me!</button>
         </Link>
-        <a href="/../CV.pdf" download>download my CV</a>
+        <a className="download" href="/../CV.pdf" download> <FiDownload/> Download my CV</a>
+       
       </div>
       <div className="profile">
         <div className={border}>

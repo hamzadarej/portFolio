@@ -17,8 +17,7 @@ function Footer() {
         <a target="blank" href="https://www.linkedin.com/in/hamza-darej-068365210/"><FaLinkedinIn/> </a>
       </div>
       <div className="footer-copyright">
-        Made with ❤️ by Hamza Darej ,
-      Copyright <sup> © </sup> <span className="year">{ currentYear}</span>
+        Made with ❤️ by Hamza Darej, Copyright <sup> © </sup> <span className="year">{ currentYear}</span>
     </div></div>
   );
 }
