@@ -30,11 +30,13 @@ setBorder("profile-box1")
         <Link to="/Contact">
           <button>Contact me!</button>
         </Link>
+        <a href="/../CV.pdf" download>download my CV</a>
       </div>
       <div className="profile">
         <div className={border}>
           <img src={profileImg} alt="profile" />
         </div>
+        
       </div>
     </div>
   );
