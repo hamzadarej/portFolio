@@ -1,6 +1,6 @@
 .home {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   width: 100vw;
   height: 84vh;
@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 .home-box {
-  // background-color: rgb(90, 87, 87);
+  
   color: $orange;
   height: 60vh;
   width: 50vw;
@@ -17,7 +17,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
-  //border:2px solid red;
+
 }
 
 
@@ -129,4 +129,18 @@ h3 {
   }
 }
 
-
+@media only screen and (max-width: 300px) {
+  .home-box p{
+    font-size:small;
+  }
+  .profile {
+    padding:20px;
+    margin:10px;
+    height:50%;
+    
+  }
+  .home-box button {
+    font-size: small;
+    padding:2px;
+  }
+}
