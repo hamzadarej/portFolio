@@ -22,21 +22,21 @@ if(navActive==="nav-active"){
     return (
         
     <nav>
-      <Link to={process.env.PUBLIC_URL + "/"} onClick={()=>setNavActive("")}>
+      <Link to={process.env.PUBLIC_URL + "/"} onClick={()=>{setNavActive("");setShow();}}>
           <li id="logo">HD</li>
         </Link> 
       <ul className={`${navActive}`}>
         
-      <Link to={process.env.PUBLIC_URL + "/"} onClick={()=>setNavActive("")}>
+      <Link to={process.env.PUBLIC_URL + "/"} onClick={()=>{setNavActive("");setShow();}}>
           <li>Home</li>
         </Link>
-        <Link to="/Skills" onClick={()=>setNavActive("")}>
+        <Link to="/Skills" onClick={()=>{setNavActive("");setShow();}}>
           <li>Skills</li>
         </Link>
-        <Link to="/Projects" onClick={()=>setNavActive("")}>
+        <Link to="/Projects" onClick={()=>{setNavActive("");setShow();}}>
           <li>Projects</li>
         </Link>
-        <Link to="/Contact" onClick={()=>setNavActive("")}>
+        <Link to="/Contact" onClick={()=>{setNavActive("");setShow();}}>
           <li>Contact</li>
         </Link>
          

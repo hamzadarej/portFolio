@@ -4,7 +4,8 @@
   align-items: center;
   width: 100vw;
   height: 84vh;
-  overflow: hidden;
+  
+  box-sizing: border-box;
 }
 .home-box {
   // background-color: rgb(90, 87, 87);
