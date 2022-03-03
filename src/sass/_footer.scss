@@ -27,17 +27,33 @@
   justify-content: center;
   flex-direction: row;
   font-size: large;
-  padding: 10px;
+  padding: 5px;
 }
-@media only screen and (max-width: 300px) {
+
+@media only screen and (max-width: 800px) {
+
   .footer-container {
-    padding:0;
+    padding-top:15px;
+  }
+  .footer-links {
+    font-size:22px;
+  }
+
+}
+
+@media only screen and (max-width: 380px) {
+  .footer-container {
+    padding:5px;
     font-size:10px;
   }
   .footer-links {
     font-size:20px;
+    justify-content:space-between;
   }
   .footer-copyright{
     font-size:small;
+  }
+  .footer-copyright {
+    padding:5px;
   }
 }

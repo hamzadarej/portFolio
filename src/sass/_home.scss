@@ -88,7 +88,7 @@ border: 5px dotted $orange;
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
   .home {
     flex-direction: column-reverse;
   }
@@ -129,13 +129,17 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 380px) {
+  .home-box {
+    padding:0;
+    margin-bottom:10px;
+  }
   .home-box p{
     font-size:small;
   }
   .profile {
     padding:20px;
-    margin:10px;
+    margin-top:-54px;
     height:50%;
     
   }
