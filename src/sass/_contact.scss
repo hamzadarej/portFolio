@@ -66,8 +66,7 @@
 .latter-form {
   background-color: $white;
   opacity: 0.7;
-  padding: 20px;
-  width: 25rem;
+  width: 300px;
   height: 50%;
   z-index: 3;
   line-height: 2;
@@ -92,8 +91,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
   }
   .inputBox input,
   textarea {
@@ -104,8 +101,8 @@
     border: none;
     border-bottom: 2px solid #333;
     outline: none;
-    height:40px;
-    border-radius:12px;
+    height: 40px;
+    border-radius: 12px;
   }
   .inputBox span {
     position: absolute;
@@ -141,4 +138,21 @@
   height: 85vh;
   width: 100vw;
   opacity: 0.5;
+}
+@media only screen and (max-width: 600px) {
+  .link {
+    height: 20%;
+    
+  }
+  .link i {
+    padding: 5px;
+  }
+  .link span {
+    font-size: 15px;
+  }
+  .latter-form .inputBox input,
+  .latter-form textarea {
+    padding: 0px;
+    margin: 0px;
+  }
 }

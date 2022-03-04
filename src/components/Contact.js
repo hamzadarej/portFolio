@@ -47,11 +47,11 @@ const Contact = () => {
           <form onSubmit={handleSubmit}>
             <h2>Send Message</h2>
             <div className="inputBox">
-              <input type="text" required="required" />
+              <input type="text" className="input" required="required" />
               <span>Full Name</span>
             </div>
             <div className="inputBox">
-              <input id="email" type="email" name="email" required="required" />
+              <input id="email" type="email" className="input"  name="email" required="required" />
               <span>Email</span>
               <ValidationError
                 prefix="Email"
@@ -64,6 +64,7 @@ const Contact = () => {
                 required="required"
                 id="message"
                 name="message"
+                className="input" 
               ></textarea>
               <ValidationError
                 prefix="Message"
@@ -73,7 +74,7 @@ const Contact = () => {
               <span>Type your Message...</span>
             </div>
             <div className="inputBox">
-              <input type="submit" value="Send" disabled={state.submitting} />
+              <input type="submit" className="input"  value="Send" disabled={state.submitting} />
             </div>
           </form>
         </div>
