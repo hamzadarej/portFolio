@@ -42,10 +42,10 @@ if(navActive==="nav-active"){
          
  
       </ul>
-           <div class={`burger ${show}`} onClick={()=>showHideNav()}>
-    <div class="line1"></div>
-    <div class="line2"></div>
-    <div class="line3"></div>
+           <div className={`burger ${show}`} onClick={()=>showHideNav()}>
+    <div className="line1"></div>
+    <div className="line2"></div>
+    <div className="line3"></div>
 </div>
     </nav>
         

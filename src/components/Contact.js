@@ -9,13 +9,16 @@ import {
 const Contact = () => {
   const [state, handleSubmit] = useForm("xleavopp");
   if (state.succeeded) {
-    return <div className="contactContainer">
-      <h2 style={{color:"white" ,paddingTop:"15px"}}>Thanks for joining!</h2>
-    </div>;
+    return (
+      <div className="contactContainer">
+        <h2 style={{ color: "white", paddingTop: "15px" }}>
+          Thanks for joining!
+        </h2>
+      </div>
+    );
   }
   return (
     <div className="contactContainer">
-      
       <h1>Contact me</h1>
       <div className="contact-box">
         <div className="links-box">
@@ -40,14 +43,14 @@ const Contact = () => {
           </div>
         </div>
 
-        <div class="latter-form">
+        <div className="latter-form">
           <form onSubmit={handleSubmit}>
             <h2>Send Message</h2>
-            <div class="inputBox">
+            <div className="inputBox">
               <input type="text" required="required" />
               <span>Full Name</span>
             </div>
-            <div class="inputBox">
+            <div className="inputBox">
               <input id="email" type="email" name="email" required="required" />
               <span>Email</span>
               <ValidationError
@@ -56,7 +59,7 @@ const Contact = () => {
                 errors={state.errors}
               />
             </div>
-            <div class="inputBox">
+            <div className="inputBox">
               <textarea
                 required="required"
                 id="message"
@@ -69,7 +72,7 @@ const Contact = () => {
               />
               <span>Type your Message...</span>
             </div>
-            <div class="inputBox">
+            <div className="inputBox">
               <input type="submit" value="Send" disabled={state.submitting} />
             </div>
           </form>
