@@ -21,9 +21,8 @@
 }
 
 .footer-copyright {
-
   display: flex;
- 
+
   align-items: center;
   justify-content: center;
   flex-direction: row;
@@ -32,29 +31,27 @@
 }
 
 @media only screen and (max-width: 800px) {
-
   .footer-container {
-    padding-top:15px;
+    padding-top: 15px;
   }
   .footer-links {
-    font-size:22px;
+    font-size: 22px;
   }
-
 }
 
 @media only screen and (max-width: 380px) {
   .footer-container {
-    padding:5px;
-    font-size:10px;
+    padding: 5px;
+    font-size: 10px;
   }
   .footer-links {
-    font-size:18px;
-    justify-content:space-between;
+    font-size: 18px;
+    justify-content: space-between;
   }
- 
+
   .footer-copyright {
-    padding:10px;
-    font-size:12px;
-    justify-content:flex-start;
+    padding: 10px;
+    font-size: 10px;
+    justify-content: flex-start;
   }
 }
