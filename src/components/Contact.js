@@ -32,7 +32,7 @@ const Contact = () => {
             <i>
               <FontAwesomeIcon className="fa" icon={faPhone} />
             </i>
-            <span className="from-info">Phone +4917666997546</span>
+            <span className="from-info">+4917660387683</span>
           </div>
 
           <div className="link">
